@@ -1,0 +1,28 @@
+Infrastructure as a Service (IaaS)
+• Provide building blocks for cloud IT
+• Provides networking, computers, data storage space
+• Highest level of flexibility
+• Easy parallel with traditional on-premises IT
+Platform as a Service (PaaS)
+• Removes the need for your organization to manage the underlying infrastructure
+• Focus on the deployment and management of your applications
+Software as a Service (SaaS)
+• Completed product that is run and managed by the service provider
+
+				|On-premises| IaaS 	| PaaS	| SaaS	|	
+----------------|-----------|-------|-------|-------|
+Applications	|		x	|	x	|	x	|		|
+Data			|		x	|	x	|	x	|		|
+Runtime			|		x	|	x	|		|		|
+Middleware		|		x	|	x	|		|		|
+O/S				|		x	|	x	|		|		|
+Virtualization	|		x	|		|		|		|
+Servers			|		x	|		|		|		|
+Storage			|		x	|		|		|		|
+Networking		|		x	|		|		|		|
+
+IaaS: Amazon C2, GCP, Azure, Rackspae, Digital Ocean, Linode
+PaaS: Elastic Beanstalk, Heroku, Google App Engine (GCP), Windows Azure
+SaaS: Rekognition (for machineLearning), Google Apps, Dropbox, Zoom
+
+IAM = Identity and Access Management, Global service
