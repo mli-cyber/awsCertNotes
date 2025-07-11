@@ -978,6 +978,61 @@ Developer Services - Summary
 • CodeArtifact: Store software packages / dependencies on AWS
 • AWS CDK: Define your cloud infrastructure using a programming language
 -------------------------------------------------------------------
+Global Infrastructure Section
+-------------------------------------------------------------------
+Global Applications in AWS
+• Global DNS: Route 53
+• Great to route users to the closest deployment with least latency
+• Great for disaster recovery strategies
+• Global Content Delivery Network (CDN): CloudFront
+• Replicate part of your application to AWS Edge Locations – decrease latency
+• Cache common requests – improved user experience and decreased latency
+• S3 Transfer Acceleration
+• Accelerate global uploads & downloads into Amazon S3
+• AWS Global Accelerator:
+• Improve global application availability and performance using the AWS global network
+
+Amazon Route 53 Overview
+• Route53 is a Managed DNS (Domain Name System)
+• DNS is a collection of rules and records which helps clients understand how to reach a server through URLs.
+• In AWS, the most common records are:
+	• www.google.com => 12.34.56.78 == A record (IPv4)
+	• www.google.com => 2001:0db8:85a3:0000:0000:8a2e:0370:7334 == AAAA IPv6
+	• search.google.com => www.google.com == CNAME: hostname to hostname
+	• example.com => AWS resource == Alias (ex: ELB, CloudFront, S3, RDS, etc…)
+
+Route 53 Routing Policies
+SIMPLE ROUTING POLICY = No health checks
+WEIGHTED ROUTING POLICY
+LATENCY ROUTING POLICY 
+FAILOVER ROUTING POLICY
+Amazon CloudFront
+• Content Delivery Network (CDN)
+• Improves read performance, content is cached at the edge
+• Improves users experience
+• Many Points of Presence globally (Edge Locations, Edge Caches…)
+• DDoS protection (because worldwide), integration with Shield, AWS Web Application Firewall
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------
+Other Compute Section
+-------------------------------------------------------------------
+
+
+-------------------------------------------------------------------
+Other Compute Section
+-------------------------------------------------------------------
+
+-------------------------------------------------------------------
 Other Compute Section
 -------------------------------------------------------------------
 
